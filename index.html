@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASS CODE</title>
+    <!-- Libs -->
+    <link rel="stylesheet" href="libs/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/fontawesome-pro-5.13.0-web/css/all.min.css">
+    <link rel="stylesheet" href="libs/animate.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="preloader">
+        <p class="preloader__title">
+            Mass Code
+        </p>
+    </div>
+    <header class="header wow slideInLeft">
+        <h1 class="header__title">Welcome to Mass Code</h1>
+    </header>
+
+    <main class="main">
+
+        <a class="item wow zoomIn" href="https://mascodtech.github.io/macintosh_design/">
+            <div class="item__overlay">Macintosh Design</div>
+            <img class="item__image" src="images/Screenshot_42.png" alt="">
+        </a>
+        <a class="item wow zoomIn" href="https://mascodtech.github.io/waxom/">
+            <div class="item__overlay">Waxom</div>
+            <img class="item__image" src="images/Screenshot_3.png" alt="">
+        </a>
+        <a class="item wow zoomIn" href="https://mascodtech.github.io/kreative_pixel/">
+            <div class="item__overlay">Kreative Pixel</div>
+            <img class="item__image" src="images/Screenshot_2.png" alt="">
+        </a>
+        <a class="item wow zoomIn" href="https://mascodtech.github.io/street/">
+            <div class="item__overlay">Street88</div>
+            <img class="item__image" src="images/Screenshot_4.png" alt="">
+        </a>
+        <a class="item wow zoomIn" href="">
+            <div class="item__overlay">Buje</div>
+            <img class="item__image" src="images/Screenshot_1.png" alt="">
+        </a>
+        <a class="item wow zoomIn" href="">
+            <div class="item__overlay">Button</div>
+            <img class="item__image" src="images/Screenshot_5.png" alt="">
+        </a>
+
+    </main>
+
+
+
+    
+
+
+
+
+
+
+
+    <!-- JavaScripts -->
+    <script src="libs/jquery-3.5.0.min.js"></script>
+    <script src="libs/popper.min.js"></script>
+    <script src="libs/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="libs/wow.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        window.onload = setTimeout(function () {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }, 5000)
+    </script>
+</body>
+
+</html>

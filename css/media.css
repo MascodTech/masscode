@@ -1,0 +1,36 @@
+@media (max-width: 1000px) {
+    .item__overlay {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .item {
+        width: 50%;
+    }
+    .preloader__title {
+        font-size: 130px;
+    }
+}
+
+@media (max-width: 600px) {
+    .item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .header__title {
+        font-size: 30px;
+    }
+
+    .preloader__title {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header__title {
+        font-size: 25px;
+    }
+}
